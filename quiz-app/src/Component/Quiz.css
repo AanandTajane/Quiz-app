@@ -1,0 +1,34 @@
+
+.App{
+    text-align: center;
+}
+
+ 
+  ul {
+    list-style-type: none;
+    padding: 0;
+  } 
+     
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+  }
+     
+  li:hover {
+    background-color: #ddd;
+  }
+  .selected{
+    background-color: blue;
+  }
+   .button{
+     background-color: green;
+  
+     cursor: pointer;
+
+   }
+   .button disable{
+   
+      cursor: not-allowed;
+   }
